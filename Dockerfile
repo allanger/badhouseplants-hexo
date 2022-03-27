@@ -5,7 +5,7 @@ COPY package-lock.json ./
 COPY ./ ./
 RUN npm i
 RUN npm install -g hexo-cli
-CMD ["hexo", "generate"]
+RUN hexo generate
 
 FROM nginx:1.19.6-alpine
 COPY --from=build-env /app/public /usr/share/nginx/html

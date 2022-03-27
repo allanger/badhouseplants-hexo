@@ -1,0 +1,104 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: badhouseplants-hexo
+  namespace: web-hosting
+  labels:
+    app: badhouseplants-hexo
+    author: allanger
+  annotations:
+    keel.sh/policy: force
+    keel.sh/trigger: poll
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: badhouseplants-hexo
+  template:
+    metadata:
+      labels:
+        app: badhouseplants-hexo
+    spec:
+      containers:
+      - name: badhouseplants-hexo
+        image: ghcr.io/allanger/badhouseplants-hexo:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: badhouseplants-hexo
+  namespace: web-hosting
+spec:
+  selector:
+    app: badhouseplants-hexo
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+---
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: badhouseplants-hexo-tls
+  namespace: istio-system
+spec:
+  secretName: badhouseplants-hexo-tls
+  commonName: blog.fluentbeat.online
+  dnsNames:
+    - blog.fluentbeat.online
+  issuerRef:
+    name: cluster-issuer-acme-cluster-issuer 
+    kind: ClusterIssuer
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: badhouseplants-hexo-gateway
+  namespace: web-hosting
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "blog.fluentbeat.online"
+      # tls:
+        # httpsRedirect: true # sends 301 redirect for http requests
+    - port:
+        number: 443
+        name: https
+        protocol: HTTPS
+      tls:
+        mode: SIMPLE
+        credentialName: badhouseplants-hexo-tls
+      hosts:
+        - "blog.fluentbeat.online"
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: badhouseplants-hexo-virtual-service
+  namespace: web-hosting
+spec:
+  hosts:
+    - "blog.fluentbeat.online"
+  gateways:
+    - badhouseplants-hexo-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: badhouseplants-hexo
+            port:
+              number: 80

@@ -5,8 +5,7 @@ COPY ./ ./
 RUN npm i
 RUN npm install -g hexo-cli
 RUN pwd
-RUN hexo generate
-RUN cp -r $PWD/public /
+CMD ["hexo", "generate"]
 
 FROM nginx
 COPY --from=build-env /public /usr/share/nginx/html

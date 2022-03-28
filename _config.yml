@@ -133,7 +133,7 @@ theme_config:
     end_year: 
   favicon:
     desktop:
-      url: /images/icon.png
+      url: /images/favicon.ico
       gravatar: false
     android:
       url: /images/icon.png

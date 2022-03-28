@@ -110,14 +110,16 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
 theme_config:
+  tags_overview: true
   nav:
     Home: /
+    About: /about/
     Thoughts: /thoughts/
     Articles: /archives/
-    About: /about/
-    Beatstars: https://beatstars.com/allanger
+    Playlists: /playlists/
+    Tag: /tags/
+    Category: /categories/
     Search: /search/
 
   social_links:

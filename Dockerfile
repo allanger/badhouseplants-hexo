@@ -6,8 +6,8 @@ COPY ./ ./
 RUN npm i
 RUN npm install -g hexo-cli
 RUN pwd
-CMD ["hexo", "generate"]
+RUN hexo generate
+RUN cp -r /app/public /
 
 FROM nginx:1.19.6-alpine
-COPY --from=build-env /app/public /usr/share/nginx/html
-# COPY configs/ng`inx/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build-env /public /usr/share/nginx/html

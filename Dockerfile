@@ -1,12 +1,12 @@
-FROM node AS build-env
+FROM node AS builder
+WORKDIR /app
 COPY package.json ./
 COPY package-lock.json ./
 COPY ./ ./
 RUN npm i
 RUN npm install -g hexo-cli
 RUN hexo generate
-RUN ls -R
-RUN pwd
+CMD ["pwd"]
 
 FROM nginx
-COPY --from=build-env /public /usr/share/nginx/html
+COPY --from=builder /app/public /usr/share/nginx/html

@@ -11,13 +11,6 @@ author: allanger
 language: en
 projects_url: http://github.com/allanger
 
-logo:
-  enabled: true
-  width: 50
-  height: 50
-  url: /images/logo.png
-  gravatar: false
-  grayout: true
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://badhouseplants.club
@@ -133,11 +126,19 @@ theme_config:
     end_year: 
   favicon:
     desktop:
-      url: /images/favicon.ico
+      url: /img/favicon.ico
       gravatar: false
     android:
-      url: /images/icon.png
+      url: /im/icon.png
       gravatar: false
     apple:
-      url: /images/icon.png
+      url: /img/icon.png
       gravatar: false
+
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    url: /img/logo.png
+    gravatar: false
+    grayout: true

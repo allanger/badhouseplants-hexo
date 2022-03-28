@@ -38,7 +38,7 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
----
+
 ---
 apiVersion: cert-manager.io/v1
 kind: Certificate
@@ -70,8 +70,8 @@ spec:
         protocol: HTTP
       hosts:
         - "blog.fluentbeat.online"
-      # tls:
-        # httpsRedirect: true # sends 301 redirect for http requests
+      tls:
+        httpsRedirect: true # sends 301 redirect for http requests
     - port:
         number: 443
         name: https

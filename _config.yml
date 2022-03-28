@@ -5,13 +5,12 @@
 # Site
 title: Bad Houseplants
 subtitle: 'by allanger'
-description: 'A personal blog about music, devops, development and languages'
+description: 'A personal blog about music, devops, development, and languages'
 keywords: music, devops, development
 author: allanger
 language: en
-timezone: ''
 projects_url: http://github.com/allanger
-
+a
 logo:
   enabled: true
   width: 50

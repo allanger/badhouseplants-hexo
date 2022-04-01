@@ -4,7 +4,7 @@ date: 2022-03-27 20:43:11
 ---
 
 # Bad Houseplants
-<img src="../images/big_logo.png" alt="drawing" width="300"/>
+<img src="../img/big_logo.png" alt="drawing" width="300"/>
 
 Oi! I am allanger and this is personal blog. 
 

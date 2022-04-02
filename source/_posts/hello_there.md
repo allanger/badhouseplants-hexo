@@ -175,14 +175,14 @@ jobs:
             sha=${{ github.sha }}
             ref=${{ github.ref }}
 ```
-
+`
 To use it for your site, you need to replace "ghcr.io/allanger/badhouseplants-hexo" with you registry name. And do the same in the `values.yaml` file of course. 
 
 Also, you need to add a `CR_PAT` secret too your repo. It should be a GitHub access token that can be used for pushing images to registry. 
 
 And the latest step is the `Dockerfile`.
 
-My looks like that:
+Mine looks like this:
 ```Docker
 FROM node AS builder
 WORKDIR /app

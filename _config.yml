@@ -106,6 +106,7 @@ plugins:
 deploy:
   type: ""
 theme_config:
+  #  colorscheme: classic
   tags_overview: true
   nav:
     Home: /

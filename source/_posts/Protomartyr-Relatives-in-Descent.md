@@ -22,7 +22,8 @@ But after I've succeeded, I can say that this album is pretty boring. The manner
 
 It also would be a lie if I said that I like the way it's mixed. It's tiring to keep listening to this blunt and flat snare, or a bit overdriven guitar playing in the left head speaker, for almost forty-five minutes.
 
-_Here must be a transition_
+And with this feeling, I was listening to the first half of an album. I felt that I couldn't say anything good about it. But it happened so fast that I couldn't even notice how I began to enjoy the dull vocal and the corny post-punky arrangement. Because the vocal is not that dull and the arrangement is not corny. And the mixing actually is working well for this album. 
+
 
 I've literally fallen in love with that punk way of singing "Male plague, male plague". It's just awesome. Or that transition from whining "What a lovely view" to shouting "Throw him out", and then back again. For me, it's the best moment in the whole album. 
 

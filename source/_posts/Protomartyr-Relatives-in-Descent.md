@@ -24,9 +24,9 @@ It also would be a lie if I said that I like the way it's mixed. It's tiring to 
 
 And with this feeling, I was listening to the first half of an album. I felt that I couldn't say anything good about it. But it happened so fast that I couldn't even notice how I began to enjoy the dull vocal and the corny post-punky arrangement. Because the vocal is not that dull and the arrangement is not corny. And the mixing actually is working well for this album. 
 
-That transition from whining "What a lovely view" to shouting "Throw him out," and then back again, for me, it's the best moment in the whole album. Then I've literally fallen in love with that grungy punk way of singing "Male plague, male plague." It's just awesome.
+That transition from whining "What a lovely view" to shouting "Throw him out," and then back again, for me, it's the best moment in the whole album. Or that grungy punk way of singing "Male plague, male plague," it's just awesome.
 
-The cool part is that there is nothing extraordinary in this release, no cool riffs or leaks, the vocal is pretty simple, and the drumbeat is primitive. And it somehow still is special while having absolutely nothing special particularly. 
+The cool part is that there is nothing extraordinary in this release, no cool riffs or licks, the vocal is pretty simple, and the drumbeat is primitive. And it somehow still is special while having absolutely nothing special particularly. 
 
 Also, I find it pretty good that the album is a solid piece, with all these seamless transitions between songs, but each song separately can be treated as a self-sufficient peace. So you don't have to listen to the whole album, but you can add songs from it to any playlist. 
 

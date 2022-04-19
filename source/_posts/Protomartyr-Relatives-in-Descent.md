@@ -13,10 +13,10 @@ category:
 # Protomartyr - Relatives in Descent (2017)
 
 [ **Listen on Spotify** ](https://open.spotify.com/album/5w1LR7cbTKEoCfgB98rkgR?si=ITpfO7ehTXWR8mnlnJ3cEA)
-![Relatives in Descent](../img/protomartyr_relatives_in_descent.jpg)
 
+<img src="../img/protomartyr_relatives_in_descent.jpg" alt="Relatives in Descent" style="width:400px;"/>
 
-I've been unsuccessfully trying to listen to this album for about five times because it could've never matched my mood. At least that's what I've thought before I've listened.
+I've been unsuccessfully trying to listen to this album about five times because it could've never matched my mood. At least that's what I've thought before I've listened.
 
 But during the successful attempt, I've been sure I could say that this album is pretty boring. The manner of singing couldn't let me escape a feeling that I could be listening to Nick Cave and getting the similar vibes supplied with a better and more interesting arrangement. 
 
@@ -28,7 +28,7 @@ That transition from whining "What a lovely view" to shouting "Throw him out," a
 
 The cool part is that there is nothing extraordinary in this release, no cool riffs or licks, the vocal is pretty simple, and the drumbeat is primitive. And it somehow still is special while having absolutely nothing special particularly. 
 
-Also, I find it pretty good that the album is a solid piece, with all these seamless transitions between songs, but each song separately can be treated as a self-sufficient peace. So you don't have to listen to the whole album, but you can add songs from it to any playlist. 
+Also, I find it pretty good that the album is a solid piece, with all these seamless transitions between songs, but each song separately can be treated as a self-sufficient peace. So you don't have to listen to the entire album, but you can add songs from it to any playlist. 
 
 After sitting in the silence for a while, I still could've heard these echoes of Joe Casey singing, "She's just trying to reach you," and I bet you'll understand me. 
 

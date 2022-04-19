@@ -3,7 +3,7 @@ name: Demo docker image
 
 on:
   push:
-    branches
+    branches:
       - '**'
       - '!main'
 

@@ -1,9 +1,10 @@
 ---
-name: Latest docker image
+name: Demo docker image
 
 on:
   push:
-    branches:
+    branches
+      - '**'
       - '!main'
 
 jobs:

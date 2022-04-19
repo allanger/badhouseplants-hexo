@@ -3,7 +3,8 @@ name: Latest docker image
 
 on:
   push:
-    branches: [demo]
+    branches:
+      - '!main'
 
 jobs:
   build-and-push-latest:

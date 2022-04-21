@@ -97,6 +97,7 @@ theme_config:
   nav:
     Home: /
     About: /about/
+    Top: /top/
     Articles: /archives/
     Tag: /tags/
     Category: /categories/
